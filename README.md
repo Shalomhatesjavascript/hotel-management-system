@@ -146,5 +146,4 @@ If you have any suggestions, feel free to open an issue or create a pull request
 
 ---
 
-Would you like me to make a version that matches **your actual folder structure** (e.g., React folder name, backend folder name, or single full-stack app)?
-That way, the README will include exact paths and commands you use.
+
