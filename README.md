@@ -78,7 +78,7 @@ npm install
 
 ### 3️⃣ Setup your database
 
-* Create a MySQL database (e.g., `hostel_complaints_db`).
+* Create a MySQL database (e.g., `datbase.sqlite`).
 * Import the SQL schema (if provided) or create necessary tables manually.
 * Update your `.env` file with the following:
 
@@ -114,6 +114,9 @@ Then visit **[http://localhost:5173](http://localhost:5173)** in your browser.
 | ![Student](path/to/student_screenshot.png) | ![Admin](path/to/admin_screenshot.png) |
 
 *(Replace with your actual screenshots)*
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/259738bd-879c-4601-bddd-c6d092f43754" />
+
+<img width="1846" height="884" alt="image" src="https://github.com/user-attachments/assets/b5b08da4-e65c-47ed-94ad-0f70fca3f64e" />
 
 ---
 
@@ -131,7 +134,7 @@ Then visit **[http://localhost:5173](http://localhost:5173)** in your browser.
 * **Ogor Daniel Nkemakolam Ebiye** – *Project coordinator*
 * **Ogungbade Shalom** – *Lead Developer & Designer*
 * **Okechukwu Chiemerie Victor** – *Requirement Engineer*
-* *(Add other contributors if applicable)*
+  
 
 ---
 
