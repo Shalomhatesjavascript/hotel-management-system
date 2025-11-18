@@ -58,8 +58,8 @@ Follow these steps to run the project locally:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/hostel-complaint-management.git
-cd hostel-complaint-management
+git clone https://github.com/BU-SENG/foss-project-leached-lime.git
+cd foss-project-leached-lime
 ```
 
 ### 2️⃣ Install dependencies
