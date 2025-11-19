@@ -127,7 +127,7 @@ Then visit **[http://localhost:5173](http://localhost:5173)** in your browser.
 
 ## 👨‍💻 Contributors
 
-* **Ogor Daniel Nkemakolam Ebiye ** – *Project coordinator*
+* **Ogor Daniel Nkemakolam Ebiye** – *Project coordinator*
 * **Ogungbade Shalom** – *Lead Developer & Designer*
 * **Okechukwu Chiemerie Victor** – *Requirement Engineer*
 * **Okafor Kosisoichukwu** - *Second Requiremnt Engineer*
