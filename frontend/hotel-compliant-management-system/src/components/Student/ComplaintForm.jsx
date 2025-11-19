@@ -31,12 +31,12 @@ const ComplaintForm = ({ onSubmitSuccess }) => {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
       });
 
-      setSuccess('✅ Complaint submitted successfully!');
+      setSuccess('✅ Complaint  submitted successfully!');
       setFormData({ name: '', roomNumber: '', block: '', type: '', description: '' });
       if (onSubmitSuccess) onSubmitSuccess();
     } catch (err) {
       console.error(err);
-      setError('❌ Error submitting complaint. Please try again.');
+      setError('❌ Error submitting complaint . Please try again.');
     } finally {
       setLoading(false);
     }

@@ -1,7 +1,7 @@
 
 ---
 
-# 🏫 Hostel Complaint Management System
+# 🏫 Hostel Complaint Management - System 
 
 A **Hostel Complaint Management System** designed to streamline how students report and track issues within a hostel environment.
 The system allows students to log complaints, track progress, and receive updates — while admins can efficiently manage, assign, and resolve them
@@ -94,7 +94,7 @@ PORT=5000
 ### 4️⃣ Run the app
 
 ```bash
-# Start backend
+# Start backend = 
 cd backend
 npm start
 
