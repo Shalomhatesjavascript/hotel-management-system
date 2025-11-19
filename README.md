@@ -118,7 +118,7 @@ Then visit **[http://localhost:5173](http://localhost:5173)** in your browser.
 
 ## 🧠 Future Improvements
 
-* Add email notifications for complaint updates .
+* Add email notifications for complaint updates c
 * Add analytics dashboard for hostel administrators .
 * Integrate staff assignment and reporting system .
 * Mobile-friendly UI/UX improvements .
@@ -130,7 +130,7 @@ Then visit **[http://localhost:5173](http://localhost:5173)** in your browser.
 * **Ogor Daniel Nkemakolam Ebiye ** – *Project coordinator*
 * **Ogungbade Shalom** – *Lead Developer & Designer*
 * **Okechukwu Chiemerie Victor** – *Requirement Engineer*
-* **Okafor Kosichukwu** - *2nd Requiremnt Engineer*
+* **Okafor Kosisoichukwu** - *Second Requiremnt Engineer*
   
 
 ---
