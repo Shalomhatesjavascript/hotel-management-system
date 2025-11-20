@@ -62,7 +62,7 @@ const ComplaintForm = ({ onSubmitSuccess }) => {
           name="roomNumber"
           value={formData.roomNumber}
           onChange={handleChange}
-          placeholder="E.g., 202"
+          placeholder="E.g., 201"
           required
           style={styles.input}
         />
