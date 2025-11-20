@@ -1,14 +1,12 @@
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  storage: './database.sqlite',
+const { Sequelize } = require('sequelize');
+
+// Railway gives you DATABASE_URL in environment variables
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: 'postgres',
+  dialectOptions: {
+    ssl: { rejectUnauthorized: false }  // Required by Railway
+  },
   logging: false
 });
 
-const User = require('./User')(sequelize, DataTypes);
-const Complaint = require('./Complaint')(sequelize, DataTypes);
-
-User.hasMany(Complaint, { foreignKey: 'UserId' });
-Complaint.belongsTo(User, { foreignKey: 'UserId' });
-
-module.exports = { sequelize, User, Complaint };
+module.exports = { sequelize };
