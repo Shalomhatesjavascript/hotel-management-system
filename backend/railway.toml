@@ -1,0 +1,11 @@
+[build]
+builder = "NIXPACKS"
+
+[[services]]
+internal_port = 5000
+primary_port = 5000
+
+  [services.http_checks]
+  path = "/api/auth/login"
+  port = 5000
+  type = "tcp"

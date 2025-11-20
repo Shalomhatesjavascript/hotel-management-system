@@ -1,0 +1,11 @@
+// .sequelizerc
+require('dotenv').config();  // Loads your .env file
+
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'config.js'),  // Points to our new JS config
+  'models-path': path.resolve('models'),
+  'seeders-path': path.resolve('seeders'),  // Optional; create if needed
+  'migrations-path': path.resolve('migrations')
+};
